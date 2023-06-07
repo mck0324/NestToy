@@ -20,7 +20,7 @@ import {
   @Index('name', ['name'], { unique: true })
   @Index('url', ['url'], { unique: true })
   @Index('OwnerId', ['OwnerId'], {})
-  @Entity({ schema: 'sleact', name: 'workspaces' })
+  @Entity({ schema: 'nesttoy', name: 'workspaces' })
   export class Workspaces {
     @PrimaryGeneratedColumn({ type: 'int', name: 'id' })
     id: number;

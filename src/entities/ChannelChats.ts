@@ -13,7 +13,7 @@ import {
   
   @Index('UserId', ['UserId'], {})
   @Index('ChannelId', ['ChannelId'], {})
-  @Entity({ schema: 'sleact', name: 'channelchats' })
+  @Entity({ schema: 'nesttoy', name: 'channelchats' })
   export class ChannelChats {
     @PrimaryGeneratedColumn({ type: 'int', name: 'id' })
     id: number;

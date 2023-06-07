@@ -16,7 +16,7 @@ import {
   import { Workspaces } from './Workspaces';
   
   @Index('WorkspaceId', ['WorkspaceId'], {})
-  @Entity({ schema: 'sleact' })
+  @Entity({ schema: 'nesttoy' })
   export class Channels {
     @PrimaryGeneratedColumn({ type: 'int', name: 'id' })
     id: number;
