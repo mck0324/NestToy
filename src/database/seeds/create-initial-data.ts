@@ -1,7 +1,7 @@
 import { Seeder, SeederFactoryManager } from 'typeorm-extension';
 import { Channels } from "../../entities/Channels";
 import { DataSource } from 'typeorm';
-import { Workspaces } from 'src/entities/Workspaces';
+import { Workspaces } from '../../entities/Workspaces';
 
 export default class UserSeeder implements Seeder {
     public async run(
