@@ -46,6 +46,7 @@ import { ApiProperty } from '@nestjs/swagger';
     @ApiProperty({
       example: '1234',
       description: '사용자 비밀번호',
+      required: true,
     })
     @Column('varchar', { name: 'password', length: 100, select: false })
     password: string;
